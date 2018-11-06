@@ -1,0 +1,782 @@
+.common-top-nav {
+    height: 26px;
+    line-height: 26px;
+    background: #3c4749;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: 1px #3c4749 solid;
+    min-width: 1190px;
+}
+.common-top-nav-main {
+    width: 1110px;
+    margin: 0 auto;
+}
+.common-top-nav-right {
+    float: right;
+}
+.common-top-nav-right .common-top-nav-item {
+    float: left;
+}
+.common-top-nav-item-login {
+    padding-left: 3px;
+    padding-right: 15px;
+}
+.common-top-nav-item-fisrt {
+    border-left: 1px #515a5c solid;
+}
+.common-top-nav-item-border, .common-top-nav-item-fisrt {
+    background: #3e474a;
+    height: 26px;
+    border-right: 1px #515a5c solid;
+}
+.common-top-nav-link {
+    text-decoration: none;
+    font-size: 12px;
+}
+.common-top-nav-item a, .common-top-nav-item span {
+    color: #fff;
+}
+.common-top-nav-item-border .common-top-nav-link, .common-top-nav-item-fisrt .common-top-nav-link {
+    height: 26px;
+    padding: 0 10px;
+    display: inline-block;
+}
+.iconfont.small {
+    font-size: 12px;
+    margin-right: 0;
+}
+.common-nav {
+    width: 100%;
+    height: 70px;
+    background-color: #fafafa;
+}
+.common-nav .common-nav-main {
+    width: 1190px;
+    margin: 0 auto;
+}
+.common-nav .common-nav-main .common-nav-main-logoslogan {
+    display: inline-block;
+    width: 290px;
+    height: 30px;
+    margin: 20px 40px;
+}
+.common-nav .common-nav-main .common-nav-main-logoslogan img {
+    width: 290px;
+    height: 30px;
+    display: block;
+    border: 0;
+}
+.common-nav .common-nav-main .common-nav-main-right {
+    float: right;
+    margin: 24px 40px;
+    padding: 0;
+}
+.common-nav .common-nav-main .common-nav-main-right li {
+    float: left;
+    padding: 0 0 0 45px;
+}
+.common-nav .common-nav-main .common-nav-main-right li.actived {
+    background: url(../img/蚂蚁达客_-_蚂蚁金服旗下/T1nCXhXk8dXXXXXXXX.png) 35px 10px no-repeat;
+}
+.common-nav .common-nav-main .common-nav-main-right li.actived a {
+    color: #0091ea;
+}
+.common-nav .common-nav-main .common-nav-main-right li a {
+    font-size: 18px;
+    margin: 0 5px;
+}
+.placard {
+    background-color: #e6f2f9;
+    border-top: 1px solid #d8eefb;
+    border-bottom: 1px solid #d8eefb;
+    position: absolute;
+    top: 97px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    padding: 8px 0;
+}
+.placard .main {
+    background: url(../img/蚂蚁达客_-_蚂蚁金服旗下/T1vVVmXo4hXXXXXXXX.png) 0 0 no-repeat;
+    font-size: 14px;
+    color: #666;
+    padding-left: 40px;
+    display: inline-block;
+}
+.b {
+    font-weight: bold;
+}
+a:link, a:visited {
+    color: #0091ea;
+}
+.topBanner {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    transition: all 3s ;
+}
+.topBanner .dream-title {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    display: inline-block;
+    letter-spacing: 0;
+}
+.topBanner .dream-title .color4 {
+    float: left;
+    color: #5677fc;
+}
+.topBanner .dream-subtitle {
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    display: block;
+    font-size: 30px;
+    color: #212121;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.topBanner .dream-title .color0 {
+    float: left;
+    color: #e91e63;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .dream-title .color1 {
+    float: left;
+    color: #9c27b0;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .dream-title .color2 {
+    float: left;
+    color: #673ab7;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .dream-title .color3 {
+    float: left;
+    color: #3f51b5;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .dream-title .color4 {
+    float: left;
+    color: #5677fc;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .dream-title .color5 {
+    float: left;
+    color: #03a9f4;
+    position: relative;
+    transition: all 3s ;
+}
+.topBanner .font-content {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -595px;
+    height: 100%;
+    text-align: left;
+    width: 1190px;
+}
+.topBanner .font-content .font-item1 {
+    margin-left: 130px;
+    margin-top: 100px;
+    top: -90px;
+}
+.topBanner .font-content .font-item {
+    width: 250px;
+    float: left;
+    position: relative;
+}
+.topBanner .font-content .font-item .font-main {
+    color: #333;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.topBanner .font-content .font-item .font-light {
+    opacity: .5;
+    color: #666;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.topBanner .font-content .font-item {
+    width: 250px;
+    float: left;
+    position: relative;
+}
+.topBanner .font-content .font-item2 {
+    margin-top: 100px;
+    top: 150px;
+}
+.topBanner .font-content .font-item3 {
+    margin-top: 100px;
+    top: -90px;
+}
+.topBanner .font-content .font-item {
+    width: 250px;
+    float: left;
+    position: relative;
+}
+.topBanner .font-content .font-item4 {
+    margin-top: 100px;
+    top: 150px;
+}
+.topBanner .font-content .font-item {
+    width: 250px;
+    float: left;
+    position: relative;
+}
+.container:hover .font-item1 {
+    top: 0;
+    opacity: 1;
+    transition: all 3s ;
+}
+.container:hover .font-item2 {
+    top: 0;
+    opacity: 1;
+    transition: all 3s ;
+}
+.container:hover .font-item3 {
+    top: 0;
+    opacity: 1;
+    transition: all 3s ;
+}
+.container:hover .font-item4 {
+    top: 0;
+    opacity: 1;
+    transition: all 3s ;
+}
+.container:hover .font-content {
+    opacity: 1;
+    transition: all 3s ;
+}
+.container:hover .color0{
+    transform: translateX(-60px);
+    opacity: 0;
+    transition: all 2s ;
+}
+.container:hover .color1{
+    transform: translateX(-40px);
+    transition: all 2s ;
+    opacity: 0;
+}
+.container:hover .color2{
+    transform: translateX(-20px);
+    transition: all 2s ;
+    opacity: 0;
+}
+.container:hover .color3{
+    transform: translateX(20px);
+    transition: all 2s ;
+    opacity: 0;
+}
+.container:hover .color4{
+    transform: translateX(40px);
+    transition: all 2s ;
+    opacity: 0;
+}
+.container:hover .color5{
+    transform: translateX(60px);
+    transition: all 2s ;
+    opacity: 0;
+}
+.container:hover .dream-subtitle{
+    transition: all 2s ;
+    opacity: 0;
+}
+.backWrap {
+    width: 100%;
+    height: 390px;
+    background: #fff url(../img/蚂蚁达客_-_蚂蚁金服旗下/T1NaljXhNiXXXXXXXX.png) top no-repeat;
+    position: absolute;
+    top: 97px;
+    left: 0;
+    opacity: .5;
+    transition: all 1.2s ease-in-out;
+    min-width: 1190px;
+}
+.mainWrapper {
+    position: relative;
+    z-index: 3;
+}
+.mainWrapper .recommendProjects {
+    height: 722px;
+}
+.mainWrapper .recommendProjects .project.large {
+    width: 712px;
+    margin-right: 2px;
+}
+.mainWrapper .recommendProjects .project {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    display: block;
+}
+.mainWrapper .recommendProjects .project .imgContent {
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    border: 0;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+}
+.mainWrapper .recommendProjects .project .blackmask {
+    position: absolute;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    filter: alpha(opacity=20);
+    z-index: 2;
+}
+.mainWrapper .recommendProjects .project .mask {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #0091ea;
+    filter: alpha(opacity=0);
+    z-index: 2;
+}
+.mainWrapper .recommendProjects .project .detailContent .titleContent .tags .tag {
+    font-size: 14px;
+    border: 1px solid #fff;
+    padding: 2px 15px;
+    border-radius: 0;
+    float: left;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+#a1:hover .lan1{
+     opacity: .6;
+ }
+#a2:hover .lan2{
+     opacity: .6;
+ }
+#a3:hover .lan3{
+    opacity: .6;
+}
+#a4:hover .lan4{
+    opacity: .6;
+}
+.mainWrapper .recommendProjects .project .detailContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+.mainWrapper .recommendProjects .project .detailContent .titleContent {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: #fff;
+}
+.mainWrapper .recommendProjects .project .likeContent {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    z-index: 3;
+    opacity: 0;
+    color: #fff;
+    filter: alpha(opacity=0);
+}
+.mainWrapper .recommendProjects .project .detailContent .processContent {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff;
+    height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.mainWrapper .recommendProjects .project .detailContent .processContent .process {
+    position: relative;
+    float: left;
+    width: 5px;
+    background: #fff;
+    background: hsla(0,0%,100%,.5);
+    height: 100%;
+    margin-right: 10px;
+}
+.mainWrapper .recommendProjects .project .detailContent .processContent .processDetail {
+    float: left;
+    word-spacing: 3px;
+}
+.mainWrapper .recommendProjects .project .detailContent .processContent .process .geted.DEDUCT_FINISH, .mainWrapper .recommendProjects .project .detailContent .processContent .process .geted.SALES_END, .mainWrapper .recommendProjects .project .detailContent .processContent .process .geted.SHELVE_DOWN, .mainWrapper .recommendProjects .project .detailContent .processContent .process .geted.SUCCESS {
+    background: #ff80ab;
+}
+.mainWrapper .recommendProjects .project .detailContent .processContent .processDetail .fadefont {
+    opacity: 0;
+    margin-top: 10px;
+    filter: alpha(opacity=0);
+}
+.mainWrapper .recommendProjects .project .detailContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+.mainWrapper .recommendProjects .project.small.nm {
+    margin-right: 0;
+}
+.mainWrapper .recommendProjects .project.small {
+    width: 476px;
+}
+.mainWrapper .recommendProjects .project {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    display: block;
+}
+.mainWrapper .projectList {
+    padding: 50px 0;
+    background-color: transparent;
+}
+.mainWrapper .projectList .radioGroup .radio.actived {
+    border-bottom: 2px solid #0091ea;
+}
+.mainWrapper .projectList .radioGroup .radio {
+    color: #212121;
+    font-size: 16px;
+    float: left;
+    margin-right: 50px;
+    padding: 4px 10px;
+}
+.mainWrapper .projectList .projectGroup .project .projectLink {
+    display: block;
+    color: #212121;
+}
+
+.mainWrapper .projectList .projectGroup .project .project-img {
+    width: 240px;
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main {
+    position: relative;
+    margin-left: 260px;
+    margin-right: 265px;
+    height: 240px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top {
+    display: inline-block;
+    padding-left: 20px;
+    border-left: 1px dashed #eee;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .project-name {
+    font-size: 16px;
+    color: #888;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .project-desc {
+    font-size: 18px;
+    color: #212121;
+    margin-top: 10px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup {
+    margin-top: 20px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup .tag.tag0 {
+    background-color: #03a9f4;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup .tag.tag1 {
+    background-color: #30b8f6;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup .tag.tag2 {
+    background-color: #4fc3f7;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup .tag.tag3 {
+    background-color: #81d4fa;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .iconGroup {
+    margin-top: 20px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .popContent {
+    position: absolute;
+    left: 580px;
+    bottom: 0;
+    display: inline-block;
+}
+.ui-like {
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+}
+.ui-like .arrow-content {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 30px;
+    height: 12px;
+}
+.ui-like .numContent {
+    margin-left: 30px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.mainWrapper .projectList .projectGroup .project .project-process {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    height: 240px;
+    width: 240px;
+    border-left: 2px solid #eee;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-bar {
+    margin: 0 auto;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail {
+    margin-top: 15px;
+    text-align: left;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-title {
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    color: #9e9e9e;
+    word-spacing: 3px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-title {
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    color: #9e9e9e;
+    word-spacing: 3px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-result {
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+}
+.mainWrapper .projectList .projectGroup .project .project-main {
+    position: relative;
+    margin-left: 260px;
+    margin-right: 265px;
+    height: 240px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    height: 240px;
+    width: 240px;
+    border-left: 2px solid #eee;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-bar {
+    margin: 0 auto;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+.processbar .processbar-chart {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.processbar .processbar-ft {
+    position: absolute;
+    font-size: 16px;
+    width: 80px;
+    top: 30px;
+    left: 12px;
+    text-align: center;
+    z-index: 3;
+}
+
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail {
+    margin-top: 15px;
+    text-align: left;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-title {
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    color: #9e9e9e;
+    word-spacing: 3px;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-result {
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-result {
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
+}
+.mainWrapper .projectList .projectGroup .project .project-process .process-desc .process-detail .process-title {
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    color: #9e9e9e;
+    word-spacing: 3px;
+}
+svg {
+    height: 100px;
+    width: 100px;
+}
+.processbar .processbar-chart {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.processbar {
+    position: relative;
+}
+.mainWrapper .projectList .projectGroup .project {
+    height: 240px;
+    position: relative;
+    padding: 40px 0;
+    border-bottom: 2px solid #eee;
+}
+.processbar .processbar-ft .processbar-percent {
+    font-size: 27px;
+}
+.mainWrapper .projectList .projectGroup .project .project-main .project-top .tagGroup .tag {
+    padding: 2px 15px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+.footer{
+    background-color: #00b4dc;
+    font-size: 14px;
+    color: #fff;
+    min-width: 1190px;
+}
+.footer .session1{
+    box-shadow: 0px 5px 1px #00a7d9 inset;
+}
+.footer .session1 .container {
+    border-bottom: 2px solid #00a2c6;
+    padding: 50px 0;
+}
+.footer .session1 .container ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 230px;
+    line-height: 2.5;
+}
+.footer .session1 .container ul li a{
+    color: #fff;
+}
+.footer .session2{
+    padding: 50px 0;
+}
+.footer .session2 ul{
+    display: inline-block;
+    list-style: none;
+    padding: 4px 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    _display: inline;
+}
+.footer .session2 ul li{
+    float: left;
+    padding: 0 7px;
+    border-right: 1px solid #fff;
+    line-height: 14px;
+}
+.footer .session2 ul li.last, .footer .session2 ul li:last-child{
+    border-right: 0;
+}
+.footer .session2 ul li a{
+    color: #fff;
+}
+#ServerNum {
+    color: #ededed;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

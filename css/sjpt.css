@@ -1,0 +1,604 @@
+header{
+    width: 100%;
+    background: #fff;
+}
+.header-top{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+    height: 30px;
+    background: #3a3a3a;
+    border-bottom: 0;
+}
+i{
+    background: url("../img/蚂蚁金服开放平台/T1el0hXaJbXXXXXXXX.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+.header-nav{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.header-nav .welcome {
+    font-size: 12px;
+    line-height: 16px;
+    float: left;
+    color: #afafaf;
+    padding: 5px 0 0;
+}
+header .header-nav .welcome .back-to-old{
+    background: none;
+    padding-left: 0;
+    margin-right: 10px;
+    display: inline-block;
+    color: #9f9f9f;
+}
+header .header-nav .welcome .back-to-old:hover{
+    color: #fff;
+}
+.accounts {
+    float: right;
+    font-size: 12px;
+    padding: 0 3px 0 11px;
+}
+.accounts .item {
+    float: left;
+    height: 30px;
+}
+.accounts .logout{
+    float: left;
+    position: relative;
+    margin-right: -4px;
+    display: inline;
+    margin-top: 1px;
+}
+.accounts .logout{
+    float: left;
+    position: relative;
+    margin-right: -4px;
+    display: inline;
+    margin-top: 1px;
+}
+.nav-gap {
+    margin-top: 5px;
+    color: #fff;
+    float: left;
+}
+.accounts .link{
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    zoom: 1;
+    color: #b0b0b0;
+    line-height: 16px;
+    height: 18px;
+    overflow: hidden;
+    padding: 6px 10px 5px;
+}
+.accounts .link:hover{
+    color: #fff;
+}
+.mpHelpWrap {
+    position: relative;
+    overflow: visible;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    float: left;
+}
+.mpHelpContent {
+    display: none;
+    position: absolute;
+    top: 29px;
+    right: 0;
+    width: 280px;
+    background: #313031;
+    padding: 5px 15px;
+    line-height: 2;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Microsoft YaHei", 'Segoe UI', Tahoma, sans-serif;
+}
+.mpHelpWrap:hover .mpHelpContent{
+    display: block;
+}
+.mpHelpLink, .mpHelpOnlineService {
+    display: block;
+    padding: 10px 0;
+    line-height: 1;
+    color: #fff;
+    font-size: 14px;
+}
+.mpHelpLink:hover, .mpHelpOnlineService:hover{
+    background: #1c1c1c;
+}
+.mpHelpOnlineService{
+    box-sizing: border-box;
+    border-bottom: 1px solid #777777;
+}
+.mpHelpOnlineWrap {
+    padding: 10px 15px 10px;
+    position: relative;
+}
+.mpHelpOnlineLabel {
+    display: block;
+    color: #9F9F9F;
+    font-size: 12px;
+}
+.mpHelpOnlinePhone {
+    font-size: 18px;
+    font-weight: normal;
+}
+.mpHelpOnlineServiceTime {
+    font-size: 12px;
+}
+.spNav{
+    height: 80px;
+    width: 1200px;
+    padding-right: 100px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.spNav .logo{
+    display: block;
+    position: absolute;
+    left: 0;
+    padding-top: 10px;
+}
+.spNav .logo img{
+    width: 215px;
+}
+.spNavList{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+.spNavList .spNavLi{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+}
+.spNavList .active{
+    border-bottom: 2px solid #00bbee;
+    box-sizing: border-box;
+}
+.active a {
+    color: #19ACF7;
+}
+.spNavList li a{
+    padding: 32px;
+    display: block;
+}
+
+
+
+
+.all {
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+.screen {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen li {
+    height: 360px;
+    overflow: hidden;
+    float: left;
+}
+
+.screen ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8000px;
+}
+.all ol {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -80px;
+    line-height: 20px;
+}
+
+.all ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: rgba(0,0,0,.0);
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.all ol li.current {
+    width: 17px;
+    background: white;
+}
+
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -30px;
+    background: #000;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family:"黑体";
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
+
+
+
+.sm-modern{
+    border: 1px solid transparent;
+    background: rgba(0,0,0,.5);
+}
+.sm{
+    width: 284px;
+    height: auto;
+    position: absolute;
+    _position:relative;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    right: 190px;
+    top: 150px;;
+    z-index: 999;
+    padding-bottom: 20px;
+}
+.i1{
+    background-position: -260px -260px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: block;
+    top: -1px;
+    right: -1px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.sm-title {
+    font: 18px/28px tahoma,arial,"Hiragino Sans GB","Microsoft Yahei",\5b8b\4f53;
+    font-weight: 500;
+    font-weight: bold\0;
+    margin: 26px 31px 0 33px;
+    text-align: center;
+    color: #fff;
+}
+.sm-body{
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    text-align: center;
+    width: 190px;
+    height: 160px;
+}
+.sm-body .sm-body-img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #6c6c6c;
+    margin: 5px auto;
+    transition: all .6s cubic-bezier(0.25,.5,.5,.9);
+    z-index: 100;
+}
+.sm-footer-tips {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFF;
+    font-family: '楷体';
+    text-align: center;
+    margin-bottom: 12px;
+}
+.sm-footer-help {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+.sm-modern .sm-footer-help a{
+    color: #fff;
+}
+.sm-modern .sm-footer-help a, .sm-modern .sm-footer-help a:hover {
+    color: #fff;
+    zoom: 1;
+    font-size: 12px;
+}
+.sm-modern .sm-footer-help em {
+    padding: 0 10px;
+    color: #fff;
+    opacity: .72;
+    filter: alpha(opacity=72);
+    font-style: normal;
+    font-weight: 500;
+}
+.mpHomeNoticeWrap {
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 33px 100px;
+    line-height: 24px;
+    position: relative;
+    box-sizing: border-box;
+}
+.mpHomeNoticeTip {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    margin-top: -23px;
+    background: #fa991b;
+    color: #fff;
+    padding: 1px 8px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.mpHomeNoticeList .mpHomeNoticeItem, .mpHomeNoticeList .mpHomeNoticeItemMore {
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 280px;
+    margin-right: 30px;
+}
+.mpHomeNoticeList{
+    position: absolute;
+    top: 15px;
+}
+.mpHomeNoticeList .mpHomeNoticeItem a, .mpHomeNoticeList .mpHomeNoticeItemMore a {
+    color: #1A1A1A;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.mpHomeNoticeList .mpHomeNoticeItem a, .mpHomeNoticeList .mpHomeNoticeItem a:hover {
+    padding-right: 40px;
+}
+.mpHomeNoticeList .mpHomeNoticeItem a.mpNew:after {
+    content: 'new';
+    position: absolute;
+    right: 13px;
+    top: 3px;
+    display: inline-block;
+    transform: scale(.8, .8);
+    transform-origin: top left;
+    color: #fff;
+    font-size: 10px;
+    background-color: #e04646;
+    border-radius: 2px;
+    line-height: 1;
+    padding: 1px 3px 3px;
+    margin-left: 3px;
+}
+article ul{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+article ul li{
+    display: inline-block;
+    width: 200px;
+    padding: 29px 16px;
+    text-align: center;
+    height: 240px;
+    margin: 0 0 10px 45px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 160ms;
+}
+.mpHomeServiceImage {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 3px solid transparent;
+    margin: 0;
+    border-radius: 100%;
+    border-width: 0;
+    box-sizing: border-box;
+    transition: all 160ms;
+    cursor: pointer;
+}
+.mpHomeServiceImage img{
+    width: 100%;
+    height: 100%;
+}
+.mpHomeServiceTitle {
+    line-height: 25px;
+    font-size: 18px;
+    color: #3D3D3D;
+    font-weight: normal;
+    padding: 22px 0 7px;
+}
+.mpHomeServiceDesc {
+    color: #9A9A9A;
+    font-size: 12px;
+    line-height: 17px;
+    height: 34px;
+    overflow: hidden;
+}
+.mpHomeServiceLink {
+    font-family: 'PingFangSC-SC', "Microsoft YaHei", Tahoma, sans-serif;
+    color: #FFFFFF;
+    display: none;
+    padding: 6px 20px;
+    background-color: #05A6F3;
+    margin: 17px auto;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+article ul li:hover{
+    border-color: #DEDDDD;
+    padding-top: 26px;
+    position: relative;
+    z-index: 99;
+    text-decoration: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, -3px, 0);
+}
+article ul li:hover .mpHomeServiceLink{
+    display: block;
+}
+article ul li:hover .mpHomeServiceImage{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+.mpHomeServiceBackground{
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mpHomeServiceBackground img{
+    width: 100%;
+    height: 100%;
+}
+.mpHomeServiceTag {
+    width: 67px;
+    height: 67px;
+    color: #FFFFFF;
+    position: absolute;
+    transform: rotateZ(-315deg);
+    top: 9px;
+    right: 9px;
+    font-size: 12px;
+    line-height: 17px;
+}
+.mpHomeToProduct {
+    text-align: center;
+    margin: 14px 0 31px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #09A8FF;
+}
+.mpOpAreaContent {
+    width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.mpFooterWrap.home {
+    background-color: #fff;
+}
+.home.mpFooterWrap:before {
+    background-color: #ddd;
+}
+.mpFooterWrap:before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 1200px;
+    background-color: transparent;
+    margin: 20px auto;
+}
+.mpCopyRight, .mpFooterLinks {
+    display: block;
+    text-align: center;
+    line-height: 2.4;
+    font-size: 12px;
+    color: #B7B7B7;
+}
+.mpFooterLinks li {
+    display: inline-block;
+}
+.mpFooterLinks li a {
+    display: inline-block;
+    color: #B7B7B7;
+}
+.mpFooterLinks li + li:before {
+    content: '|';
+    display: inline-block;
+    padding: 0 12px;
+}
+.mpFooterLinks li {
+    display: inline-block;
+}
+.mpCopyRight, .mpFooterLinks {
+    display: block;
+    text-align: center;
+    line-height: 2.4;
+    font-size: 12px;
+    color: #B7B7B7;
+}
+.mpFooterWrap .server {
+    text-align: center;
+    color: #eeefef;
+    font-size: 12px;
+}
+#onlineService {
+    top: 535px;
+    right: 0;
+    display: inline;
+    position: fixed;
+    _position: absolute;
+    z-index: 991;
+}
+#onlineService a{
+    position:relative;
+    display:inline-block;
+}
+#onlineService a img {
+    width: 100px;
+    display: block;
+}
+#onlineService a span {
+    position: absolute;
+    right:5px;
+    top:-12px;
+    font-size:14px;
+    background:#eee;
+    padding:1px 4px;
+    border-radius:3px;
+    line-height: normal;
+    color: #AC593F;
+}
+
+
+
+
+
+
+
+

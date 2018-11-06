@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Alipay</title>
+    <link rel="icon" href="img/favicon%20(1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<article>
+    <a class="p" href="支付宝app.html" target="_blank">中文</a>
+    <div class="banner" id="banner">
+
+        <div class="slick_trick" >
+            <div class="slick" style="display: block">
+                <img src="img/app/EoDRHUGyqbjoeoKToazR.jpg" alt="" width="100%">
+                <div class="zhi">
+                    <img src="img/app/QQ图片20181003152020.png" alt="">
+                    <div class="container">
+
+                        <h1>The World's Leading Payment and Lifestyle App</h1>
+                        <h2>A Super App connecting more than 450 million users around the world</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slick">
+                <img src="img/app/uaffCIZLUJrUasWhVrMa.jpg" alt="" width="100%">
+                <div class="zhi">
+                    <img src="img/app/QQ图片20181003153035.png" alt="">
+                    <div class="container">
+
+                        <h1>Scan & Pay</h1>
+                        <h2>Make payments at thousand of stores width a single tap</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slick">
+                <img src="img/app/HmxmjVAxFqxHfIcMmiJU.jpg" width="100%" alt="">
+                <div class="zhi">
+                    <img src="img/app/QQ图片20181003152713.png" alt="">
+                    <div class="container">
+
+                        <h1>Transfer Money</h1>
+                        <h2>Send and Receive money in a matter of seconds</h2>
+                    </div>
+                </div>
+
+            </div>
+            <span class="span1">Download Alipay</span>
+        </div>
+    </div>
+    <ul class="slick_dots">
+        <li style="margin-left: 48%" class="now"></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div id="main-toggle">
+        <a title="Product Highlights" href="javascript:;" class="now">Product Highlights</a>
+        <a title="QuickStart Guide" href="javascript:;">QuickStart Guide</a>
+    </div>
+    <div class="main">
+        <div class="tabs now">
+            <img src="img/app/4c40092d-41b3-4115-a147-08c2c34eef49.jpeg">
+            <img src="img/app/99564255-8210-483a-96d6-c5177640effc.jpeg">
+            <img  src="img/app/f84960d9-cda7-43a6-b045-9341094087f4.jpeg">
+            <img  src="img/app/2a9f3cf2-c08e-49b6-b474-382947d5da99.jpeg">
+            <img  src="img/app/fc792686-4765-4d1e-a04a-d3de7e9d5929.jpeg">
+            <img  src="img/app/a7c9f0e3-3d8a-4403-accf-2d40dfb61e74.jpeg">
+
+        </div>
+        <div class="tabs">
+            <img src="img/app/b05b3814-90fa-45fc-954b-f5db87a2e7c0.jpeg">
+            <img src="img/app/5ad7f257-aea3-4d8c-b3f3-ff88e6d65f12.jpeg">
+            <img src="img/app/f2eb83ce-731d-454e-b26c-bade695610bf.jpeg">
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="links">
+
+            <a title="Facebook" href="#">
+                <span data-hover="Facebook">Facebook</span>
+            </a>
+            /
+            <a title="YouTube" href="#">
+                <span data-hover="YouTube">YouTube</span>
+            </a>
+            /
+            <a title="#">
+                <span data-hover="Alipay for Business">Alipay for Business</span>
+            </a>
+            /
+            <a title="#">
+                <span data-hover="About Ant Financial">About Ant Financial</span>
+            </a>
+
+        </div>
+        <p>© 2004-2018 Alipay</p>
+    </div>
+</article>
+</body>
+<script>
+
+    var aLi1=document.querySelectorAll('.slick_dots li');
+    var aDiv1=document.getElementsByClassName('slick');
+    var aTo=document.getElementById('main-toggle');
+    var toggle=aTo.getElementsByTagName('a');
+    var tabs=document.getElementsByClassName('tabs');
+    function tab1(x,y,ev){
+        for (var i = 0; i < x.length; i++) {
+            x[i].index = i;
+            x[i][ev]=function(){
+                for (var j = 0; j < y.length; j++) {
+                    y[j].style.display='none';
+                    x[j].classList.remove('now');
+                }
+                y[this.index].style.display='block';
+                this.classList.add('now');
+            }
+        }
+    }
+    tab1(aLi1,aDiv1,'onclick');
+    tab1(toggle,tabs,'onclick');
+    var temp=0;
+    var oBox=document.getElementById('.banner');
+    timer();
+    var ding;
+    function timer(){
+        ding=setInterval(function(){
+            if(temp<aLi1.length-1){
+                temp++;
+            }else {
+                temp=0 ;
+            }
+            for(var j=0;j<aDiv1.length;j++){
+                aLi1[j].classList.remove('now');
+                aDiv1[j].style.display='none';
+            }
+            aLi1[temp].classList.add('now');
+            aDiv1[temp].style.display='block';
+
+        },2000)
+    }
+
+</script>
+</html>

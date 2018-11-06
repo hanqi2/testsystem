@@ -1,0 +1,1358 @@
+body {
+    margin: 0;
+}
+body .body{
+    padding-bottom:0;
+}
+i{
+    background: url("../img/蚂蚁金服开放平台/T1el0hXaJbXXXXXXXX.png") no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+.open-fn-arrow>a:after {
+    content: "";
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform-origin: 3px 6px;
+    transform: rotate(-45deg);
+    transition: transform .2s;
+}
+/*hover效果*/
+.open-fn-arrow:hover>a:after{
+    transform: rotate(135deg);
+}
+.has-submenu:hover .menu-popup {
+    display: block;
+}
+.open-site-header {
+    -webkit-font-smoothing: antialiased;
+    background: #061024;
+    height:50px;
+}
+.open-homepage .open-site-header {
+    width: 100%;
+    background-color: rgba(6,16,36,.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+.open-homepage .open-site-header:hover {
+    background: #061024;
+}
+.open-site-header * {
+    box-sizing: border-box;
+}
+.open-site-header p {
+    margin: 0;
+}
+.open-site-header img {
+    border: 0;
+    outline: none;
+}
+.open-menu-area{
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+}
+.antLogo {
+    float: left;
+    padding-top:2px;
+}
+.antLogo a{
+    display:block;
+    font-size:0;
+    height:48px;
+}
+.antLogoImg {
+    width: 172px;
+}
+.open-nav-menu {
+    margin-left: 190px;
+    line-height: 50px;
+    font-size: 0;
+}
+.open-nav-main-menu, .open-submenu, .open-nav-right-menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+}
+.open-nav-main-menu {
+    display: inline-block;
+}
+.open-menu-item {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+}
+.open-submenu-item  {
+    position: relative;
+    display: block;
+}
+.open-menu-item.selected:after{
+    content:'';
+    position:absolute;
+    bottom:0px;
+    left:0;
+    width:100%;
+    height:3px;
+    background:#466DD9;
+}
+.open-menu-item.can-disabled-select:hover:after {
+    display: none;
+}
+.open-nav-right-menu{
+    position: relative;
+    float:right;
+    height:100%;
+}
+.open-menu-login{
+    position:relative;
+}
+.open-menu-login a{
+    padding:0 13px;
+}
+.open-menu-login-border:before{
+    content:'';
+    position:absolute;
+    top: 50%;
+    left: 0px;
+    width:1px;
+    height:18px;
+    margin-top: -9px;
+    background:rgba(255,255,255,.4)
+}
+.open-menu-login-border:after{
+    content:'';
+    position:absolute;
+    top: 50%;
+    right: 0;
+    width:1px;
+    height:18px;
+    margin-top: -9px;
+    background:rgba(255,255,255,.4)
+}
+.open-nav-menu a,
+.open-nav-menu a:link,
+.open-nav-menu a:visited {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+.open-nav-menu a:hover{
+    color: #108ee9;
+}
+.open-nav-right-menu a{
+    font-size:14px;
+}
+.open-nav-menu .menu-popup {
+    display: none;
+    position: absolute;
+    overflow: visible;
+    z-index: 111111;
+    min-width: 120px;
+    text-align: left;
+    left:0;
+    top:50px;
+}
+.menu-islogin:hover{
+    background: rgba(43,71,149,.8);
+}
+.menu-islogin .menu-popup{
+    right:0;
+    left:auto;
+    min-width: 300px;
+}
+.menu-islogin .has-submenu{
+    position:relative;
+}
+.open-nav-menu .open-submenu {
+    white-space: nowrap;
+}
+.open-nav-menu .last-menu .open-submenu {
+    border-bottom: none;
+}
+.open-nav-menu .open-submenu-item{
+    background: rgba(6,16,36,.9);
+    line-height: 40px;
+    padding: 0 20px;
+}
+.hotline {
+    line-height: 1.8;
+    background: rgba(6,16,36,.9);
+    padding: 0 20px 15px;
+    white-space: nowrap;
+    text-align: left;
+    border-top: none;
+}
+.hotline:before{
+    display: block;
+    content: "";
+    border-top: 1px solid rgba(255,255,255,.4);
+    width: 100%;
+    height: 1px;
+}
+.hotline h3{
+    margin: 10px 0 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #8F8F8F;
+}
+.hotline p{
+    font-size: 16px;
+    color: #8F8F8F;
+    line-height: 1.5;
+}
+.nav-title {
+    position: absolute;
+    left: 240px;
+    bottom: 24px;
+    color: #1A1A1A;
+    font-size: 18px;
+    margin: 0;
+}
+.open-menu-item-text {
+    position: relative;
+    padding: 0 20px;
+}
+.open-menu-item-hot {
+    top: 0;
+    width: 24px;
+    position: absolute;
+    right: 12px;
+}
+/* 20170427 */
+.user-profile{
+    min-width: 180px;
+    background: rgba(6,16,36,.9);
+    padding: 20px 26px 15px;
+    line-height: normal;
+}
+.user-profile-account{
+    color: #ffffff;
+    font-size: 14px;
+    max-width: 477px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.user-profile a,
+.user-profile a:link,
+.user-profile a:visited {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    width: 50%;
+}
+.user-profile .user-profile-name,.user-profile .user-profile-id{
+    opacity:0.5;
+}
+.site-username {
+    display: inline-block; /*make text property has effect*/
+    line-height: 100%; /* make inline element align with inline-block element */
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 127px;
+}
+.site-open-menu-item.login-info{
+    padding: 0;
+}
+.login-info-container {
+    font-size: 16px;
+}
+.login-info-name{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.user-profile-outlogin{
+    border-top: 1px solid rgba(255,255,255,.4);
+    padding-top: 12px;
+}
+.user-profile-outlogin{
+    position: relative;
+    text-align: center;
+}
+.user-profile-outlogin:after{
+    content: "";
+    position: absolute;
+    top:11px;
+    left: 50%;
+    width: 1px;
+    height: 19px;
+    background: rgba(255,255,255,.4);
+}
+.user-profile-id{
+    padding: 12px 0;
+    font-size:12px;
+}
+.login-info-name{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.J_SearchBtn{
+    width:32px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+}
+.open-menu-item-search{
+    position: absolute;
+    left: -38px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index:10;
+}
+.open-search-form{
+    position: relative;
+    padding-left:34px;
+    line-height:0;
+}
+.nav-search-input input{
+    width:0;
+    height: 28px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size:14px;
+    background:#394662;
+    opacity: 0;
+    border:0;
+    outline: none;
+    color:#ffffff;
+}
+/* search mode */
+.open-search-mode input{
+    width:218px;
+    opacity:1;
+}
+.open-search-mode .open-search-form {
+    background:#394662;
+}
+.open-search-mode .open-menu-item-search {
+    left:-49px;
+}
+.open-search-mode .open-menu-item-magetcenter {
+    opacity:0;;
+}
+.nav-search-input{
+    position:relative;
+    top:11px;
+}
+.user-profile-id{
+    padding: 12px 0;
+}
+.open-menu-item-help{
+    position:relative;
+}
+.open-menu-item-help:before{
+    content:'';
+    position:absolute;
+    top: 16px;
+    left: 0px;
+    width:1px;
+    height:18px;
+    background:rgba(255,255,255,.4)
+}
+.open-menu-item-help:hover:before,
+.open-menu-item-help:hover + .open-menu-login-border:before,
+.menu-islogin:hover:before,
+.menu-islogin:hover:after{
+    width: 0;
+}
+.open-nav-menu .open-menu-item-help > div >a{
+    padding:0 10px;
+}
+.open-nav-menu .open-menu-item-magetcenter > div a{
+    padding:0 13px;
+}
+.open-menu-item-icon{
+    top: 7px;
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    cursor: pointer;
+}
+.open-menu-item-icon img{
+    width:14px;
+    height:15px;
+    display:block;
+}
+.open-nav-menu a.menu-username{
+    display: inline-block;
+    width:26px;
+    height: 100%;
+    text-align: center;
+    font-size:0;
+}
+.menu-username img{
+    width:100%;
+    height:100%;
+    border-radius:100%;
+}
+.open-menu-item-free a{
+    width:80px;
+    height:30px;
+    display:inline-block;
+    font-size:14px;
+    text-align:center;
+    line-height:28px;
+    border:1px solid #ffffff;
+    border-radius:4px;
+
+    margin-top: 10px;
+}
+.open-menu-item-free a:hover{
+    border:1px solid #108ee9;
+}
+.menu-islogin .has-submenu{
+    padding: 12px 14px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.slick_trick{
+    opacity: 1;
+    width: 900%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick{
+    width: 1519px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 998;
+    /*opacity: 0;*/
+    display: none;
+    transition: opacity 500ms linear 0s;
+    height: 550px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.slick .imgBox{
+    width: 100%;
+}
+.slick .imgBox .img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick .imgBox .img .model_img{
+position: absolute;
+height: 550px;
+background: #12295E;
+opacity: 0.5;
+z-index: 1;
+top: 0;
+    width: 100%;
+}
+.slick .imgBox .img .slick_imgList{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slick .imgBox .img .banner_zi{
+    width: 800px;
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    margin-left: -600px;
+    text-align: left;
+    z-index: 3;
+}
+.main-title{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sub-title{
+    font-size: 20px;
+    color: #fff;
+    line-height: 32px;
+}
+.banner .slick_dots{
+    position: absolute;
+    width: 1200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 46px;
+    z-index: 1111111;
+}
+.banner .slick_dots li{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.banner .slick_dots .now{
+    background: rgba(255, 255, 255, 0.8);
+}
+.notice-box {
+    width: 1240px;
+    height: 36px;
+    line-height:36px;
+    bottom: 0;
+    left: 130px;
+    position: absolute;
+    z-index: 1000;
+    text-align: left;
+}
+.notice-box ul {
+    overflow: hidden;
+    font-size: 0;
+    height:36px;
+}
+.notice-box li {
+    float: left;
+    margin-right: 60px;
+    width: 273px;
+}
+.notice-box .last {
+    margin-right: 0;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: auto;
+}
+.notice-container span {
+    display: inline-block;
+    font-style: normal;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.notice-newtip{
+    display: inline-block;
+    float:left;
+    width: 27px;
+    height: 36px;
+    line-height:36px;
+    background: url(../img/蚂蚁金服开放平台/KvjsyJPbDGwDYbceQzjq.png) no-repeat right center;
+    background-size: 27px 17px;
+}
+.notice-box a {
+    font-size: 14px;
+    color: #ffffff;
+    position: relative;
+    float:left;
+    max-width: 234px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+}
+.notice-box a:hover, .notice-box .more-notice a:hover{
+    color: #108EE9;
+}
+.notice-box .more-notice{
+    width: auto;
+    float: right;
+    text-align: right;
+    margin-right: 0;
+}
+.notice-box .more-notice a {
+    margin-right: 0;
+    width: auto;
+    padding-right: 0;
+    color: #ffffff;
+}
+.notice-li{
+    position:relative;
+}
+.notice-tips{
+    float:left;
+    margin-right:10px;
+    padding-top:7px;
+    height:36px;
+    font-size:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.notice-tips img{
+    width:24px;
+    height:22px;
+    animation: big 3s linear infinite;
+}
+.sm-modern{
+    border: 1px solid transparent;
+    background: rgba(0,0,0,.5);
+}
+.sm{
+    width: 284px;
+    height: auto;
+    position: absolute;
+    _position:relative;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    right: 190px;
+    top: 115px;;
+    z-index: 999;
+    padding-bottom: 20px;
+}
+.i1{
+    background-position: -260px -260px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: block;
+    top: -1px;
+    right: -1px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.sm-title {
+    font: 18px/28px tahoma,arial,"Hiragino Sans GB","Microsoft Yahei",\5b8b\4f53;
+    font-weight: 500;
+    font-weight: bold\0;
+    margin: 26px 31px 0 33px;
+    text-align: center;
+    color: #fff;
+}
+.sm-body{
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    text-align: center;
+    width: 190px;
+    height: 170px;
+}
+.sm-body .sm-body-img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #6c6c6c;
+    margin: 5px auto;
+    transition: all .6s cubic-bezier(0.25,.5,.5,.9);
+    z-index: 100;
+}
+.sm-footer-tips {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.sm-footer-help {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+.sm-modern .sm-footer-help a{
+    color: #fff;
+}
+.sm-modern .sm-footer-help a, .sm-modern .sm-footer-help a:hover {
+    color: #fff;
+    zoom: 1;
+    font-size: 12px;
+}
+.sm-modern .sm-footer-help em {
+    padding: 0 10px;
+    color: #fff;
+    opacity: .72;
+    filter: alpha(opacity=72);
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.content{
+    text-align: center;
+    background: #FFFFFF;
+}
+.homepage-title {
+    padding: 36px 0 50px 0;
+}
+.catitle:after {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -32px;
+    background-color: #108EE9;
+    display: block;
+}
+.catitle {
+    font-size: 32px;
+    color: #38425C;
+    text-align: center;
+    position: relative;
+}
+.content {
+    width: 1240px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.tg{
+    width: 600px;
+    height: 380px;
+    float: left;
+    text-align: center;
+    margin-right: 40px;
+    position: relative;
+}
+.tg:hover .tg_list, .tg:hover .payment-item-btn a{
+    border: 1px solid #108EE9;
+}
+.tg_list {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    transition: all .2s ease;
+    height: 380px;
+}
+.tg_list_top{
+    width: 600px;
+    height: 140px;
+    padding: 0 20px;
+    background: url(../img/蚂蚁金服开放平台/DhMbUMNFZbYwyymeydZI.png) no-repeat;
+    background-size: 599px 140px;
+}
+.tg_list_top2{
+    width: 600px;
+    height: 140px;
+    padding: 0 20px;
+    background: url(../img/蚂蚁金服开放平台/HnLPwESrEYLcmINXzNUr.png) no-repeat;
+    background-size: 599px 140px;
+}
+.tg-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.tg-tips {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.tg_list_down{
+    padding: 45px 40px 20px;
+    text-align: center;
+}
+.payment-item-ul {
+    display: inline-block;
+    height: 100px;
+}
+.payment-item-li {
+    margin-right: 40px;
+    float: left;
+}
+.payment-item-li a {
+    display: block;
+    cursor: pointer;
+}
+.payment-item-li a:hover .payment-item-border{
+    border: 1px solid rgba(31,117,255,.9);
+}
+.payment-item-li a:hover .payment-item-name{
+    color: #0a56bb;
+}
+.payment-item-border {
+    width: 67px;
+    height: 67px;
+    border: 1px solid rgba(16,142,233,.3);
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 16px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.payment-item-border img {
+    width: 36px;
+    height: 36px;
+}
+.payment-item-name {
+    font-size: 16px;
+    color: #1A1A1A;
+    padding: 10px 0 20px 0;
+}
+.payment-item-btn {
+    margin-top: 19px;
+}
+.payment-item-btn a {
+    font-size: 16px;
+    color: #38425C;
+    display: inline-block;
+    padding: 10px 45px 10px 30px;
+    border: 1px solid transparent;
+    position: relative;
+    border-radius: 4px;
+}
+.payment-item-btn a:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 13px;
+    height: 8px;
+    background: url(../img/蚂蚁金服开放平台/EJYotJbrhFjwrqDMkejY.png) no-repeat;
+    background-size: 100%;
+}
+.join-content {
+    text-align: center;
+    background: #f6f6f7;
+}
+.join-content-inner {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(../img/蚂蚁金服开放平台/gycJvJeImieasbVbRZqk.png) no-repeat top center;
+}
+.homepage-title {
+    padding: 36px 0 50px 0;
+}
+.catitle {
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+}
+.join-content .join-list {
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+    font-size: 0;
+    display: table;
+    border-spacing: 10px 0;
+    border-collapse: separate;
+}
+.join-list-content {
+    width: 1280px;
+    height: 325px;
+    text-align: center;
+    display: table-row;
+    border-collapse: separate;
+    border-spacing: 0 0;
+}
+.join-list .join-li {
+    display: table-cell;
+    position: relative;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    padding-right: 10px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    background: #FFFFFF;
+}
+.join-item {
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.join-item-icon {
+    width: 84px;
+    height: 84px;
+    margin-top: 68px;
+}
+.join-item-title {
+    font-size: 24px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 1;
+    padding: 20px 0 5px 0;
+}
+.join-item-tips {
+    font-size: 14px;
+    color: #888888;
+    padding: 15px 20px;
+}
+.join-item-hover {
+    opacity: 0;
+}
+.join-item-ince {
+    font-size: 14px;
+    color: #888888;
+    padding: 0 20px;
+}
+.join-item-btn {
+    margin-top: 40px;
+}
+.join-item-btn a {
+    display: inline-block;
+    padding: 10px 60px 10px 48px;
+    font-size: 16px;
+    color: #0a56bb;
+    text-align: center;
+    border: 1px solid rgba(72,124,255,0.9);
+    border-radius: 4px;
+    position: relative;
+}
+.join-item-btn a:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 34px;
+    width: 13px;
+    height: 8px;
+    background: url(../img/蚂蚁金服开放平台/EJYotJbrhFjwrqDMkejY.png) no-repeat;
+    background-size: 100%;
+}
+.join-list .join-li-front:hover .join-item {
+    top: -105px;
+}
+.join-list .join-li-front:hover .join-item-icon{
+    opacity: 0;
+}
+.join-list .join-li-front:hover .join-item-hover{
+    opacity: 1;
+}
+.home_tittle{
+    padding: 36px 0 50px 0;
+}
+.choose_slick_map {
+    max-width: 1920px;
+    padding: 70px 0px 0 0px;
+    margin: 0 auto 60px;
+    position: relative;
+    background: url(../img/蚂蚁金服开放平台/brJTVWbvpHOODwuICmXz.png) no-repeat top center;
+}
+.choose_ul {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.choose_li {
+    width: 310px;
+    height: 310px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.choose_concent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding-top: 50px;
+}
+.choose-item-icon {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.choose-item-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.choose-item-tips {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 90px;
+    line-height: 24px;
+}
+.choose_li .choose_item_hover {
+    position: absolute;
+    top: 0;
+    left: -310px;
+    z-index: 100;
+    width: 310px;
+    height: 310px;
+}
+.choose_item_hover a {
+    display: block;
+    width: 310px;
+    height: 310px;
+    background: rgba(33,121,255,0.8);
+    text-align: left;
+    padding: 35px 35px 0 35px;
+    box-sizing: border-box;
+}
+.choose-hover-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.choose-hover-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 56px;
+    height: 3px;
+    background: #FEC116;
+}
+.choose-hover-tips {
+    opacity: 0.5;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.choose-hover-xq {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.choose_li:hover .choose_concent{
+    display: none;
+    transition-duration: 0.3s;
+}
+.choose_li:hover .choose_item_hover{
+    left: 0;
+    transition-property: left;
+    transition-duration: 0.5s;
+}
+.choose-data {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+}
+.choose-down {
+    display: inline-block;
+    text-align: left;
+}
+.choose-data .choose-data-item {
+    width: 413.33px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.choose-data-title{
+    font-weight: normal;
+}
+.choose-data-bgtitle {
+    font-size: 26px;
+    color: #E79700;
+}
+.choose-data-smtitle {
+    font-size: 18px;
+    color: #E79700;
+}
+.choose-data-tips {
+    font-size: 14px;
+    color: #000000;
+}
+.content3 {
+    height: 510px;
+}
+.content3-inner {
+    max-width: 1920px;
+    height: 510px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/蚂蚁金服开放平台/jdeGKVUEJmDcVMsXKCuf.png) no-repeat top center;
+}
+.homepage-title {
+    padding: 36px 0 50px 0;
+}
+.entersteps-catitle {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.catitle:after {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -32px;
+    background-color: #fff;
+    display: block;
+}
+.entersteps-list {
+    text-align: center;
+    position: relative;
+    max-height: 160px;
+}
+.entersteps-ul {
+    display: inline-block;
+    text-align: left;
+}
+ .entersteps-list ul li {
+    width: 225px;
+    float: left;
+    margin-right: 198px;
+    position: relative;
+}
+.entersteps-list-num {
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.entersteps-list-con {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.entersteps-list ul .entersteps-li-one:before {
+    content: "";
+    width: 96px;
+    height: 4px;
+    position: absolute;
+    top: 55px;
+    right: -152px;
+    background: url(../img/蚂蚁金服开放平台/plvhnlAXZGLHoDCkzwTR.png) no-repeat;
+    background-size: 100% 100%;
+}
+.entersteps-list-tips {
+    font-size: 14px;
+    color: #FFFFFF;
+    max-height: 130px;
+    overflow: hidden;
+}
+.entersteps-list-tips p {
+    font-size: 14px;
+    color: #FFFFFF;
+    max-height: 130px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.entersteps-list-register {
+    padding-top: 5px;
+}
+.entersteps-list ul .entersteps-li-three:before {
+    content: "";
+    width: 96px;
+    height: 4px;
+    position: absolute;
+    top: 55px;
+    left: -145px;
+    background: url(../img/蚂蚁金服开放平台/plvhnlAXZGLHoDCkzwTR.png) no-repeat;
+    background-size: 100% 100%;
+}
+.entersteps-list-register a{
+    color: #00A0ED;
+    font-size: 14px;
+    display: block;
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #00A0ED;
+    line-height: 1;
+}
+.enter-btn{
+    text-align: center;
+    padding-top: 65px;
+}
+.enter-btn a{
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    background: #108EE9;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.enter-btn a:hover{
+    opacity: .8;
+}
+
+
+
+/*footer结束*/
+.footer-box{
+    background-color: #232940;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+}
+.footer-box * {
+    box-sizing: border-box;
+}
+.footer-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-clearfix:before,
+.footer-clearfix:after {
+    display: block;
+    content: '';
+}
+.footer-clearfix:after {
+    clear: both;
+}
+
+.footer-box-content{
+    width:1240px;
+    margin: 0 auto;
+    padding: 50px 0px 30px;
+}
+.footer-box-left{
+    float:left;
+    width:1020px;
+}
+.footer-box-content-li{
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+}
+.footer-box-content ul li:last-child{
+    margin-right: 0px;
+}
+.footer-box-content-item{
+    width: 208px;
+}
+.footer-box-content-name {
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer-box-content-subli{
+    padding-top: 14px;
+    white-space: normal;
+    word-break: break-all;
+    overflow: hidden;
+}
+.footer-box-content-subli a, .footer-box-content-subli span{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.footer-box-content-subli a:hover{
+    color: #108ee9;
+}
+
+.footer-box-right{
+    float: right;
+    width: 220px;
+    padding-left: 80px;
+    border-left: 1px solid rgba(151,151,151,0.4);
+}
+.footer-box-right-title{
+    padding-bottom:16px;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.footer-box-right-item{
+    padding-top:12px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer-box-right-item.footer-box-right-item-opacity{
+    opacity: 0.6;
+}
+.footer-box-right-item img{
+    width:97px;
+    height:97px;
+}
+
+.body-footer{
+    clear: both;
+}
+
+.site-footer{
+    padding: 16px 0 0;
+    font-size: 12px;
+    clear: both;
+}
+.site-footer .copyright{
+    text-align: center;
+    opacity: 0.8;
+    color: #fff;
+}
+.site-footer .server {
+    color: #232940;
+}
+#onlineService {
+    top: 70%;
+    display: block;
+    right: -104px;
+    position: fixed;
+    _position: absolute;
+    transition: 2s;
+    z-index: 991;
+}
+#onlineService a{
+    position:relative;
+    display:inline-block;
+}
+#onlineService a img {
+    width: 100px;
+    display: block;
+}
+#onlineService a span {
+    position: absolute;
+    right:5px;
+    top:-12px;
+    font-size:14px;
+    background:#eee;
+    padding:1px 4px;
+    border-radius:3px;
+    line-height: normal;
+    color: #AC593F;
+}
+@keyframes big {
+    25%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.imgdb{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 8%;
+    right: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 99999;
+    display: none;
+    animation:big 3s linear infinite;
+}

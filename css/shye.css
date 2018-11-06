@@ -1,0 +1,730 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+@font-face {
+    font-family: 'alipayhome';
+    src: url('font_1431504418_7238076.eot') format('truetype')
+}
+
+.header .am-header-inner {
+    position: relative;
+    z-index: 2;
+}
+.topNav, .topNav a, .topNav span {
+    color: #fff;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+}
+.header .topNav .laymid, .topNav {
+    background: #1e1b29;
+}
+.header .laymid {
+    width: 1200px;
+    margin: 0 auto;
+}
+.topNav li.first {
+    margin-left: 0 !important;
+}
+.topNav li {
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+}
+.topNav a:hover, .topNav li.on a {
+    color: #00bbee;
+}
+.topNav .rlink li {
+    margin: 0 5px;
+}
+.topNav li {
+    float: left;
+    text-align: center;
+}
+.topNav a {
+    text-decoration: none;
+}
+.topNav a{
+    color: #fff;
+    font-size: 12px;
+}
+.topNav span {
+    color: #fff;
+    font-size: 12px;
+}
+.am-service{
+    position: relative;
+
+}
+.am-service:hover .downlist{
+    display: block;
+}
+.am-service .downlist {
+    padding: 5px 0;
+    top: 28px;
+    left: -10px;
+    width: 80px;
+    text-align: center;
+    display: none;
+    border: 1px #f1f1f1 solid;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    box-sizing: border-box;
+}
+.am-service .downlist a{
+    display: block;
+    color: #111;
+}
+.mainNav, .mainMenu, .channel .downlist .close {
+    height: 80px;
+}
+.mainNav {
+    border-bottom: 1px #eeeeee solid;
+    background-color: rgba(255,255,255,.9);
+}
+.header .laymid {
+    width: 1200px;
+    margin: 0 auto;
+}
+.alipay-logo {
+    display: block;
+    width: 114px;
+    position: relative;
+    left: 0;
+    top: 20px;
+    float: left;
+    height: 40px;
+    background: url("../img/T1HHFgXXVeXXXXXXXX.png") 0 0 no-repeat;
+}
+.mainMenu {
+    margin-left: 360px;
+}
+.channel {
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+}
+.channel-a:hover, .mainMenu .on .channel-a, .am-service .downlist a:hover {
+    color: #00bbee;
+}
+
+.channel .channel-a, .channel .downlist a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.channel-a {
+    padding: 0 30px;
+}
+.buttons {
+    margin-top: 25px;
+    float: right;
+}
+.buttons dd {
+    float: left;
+}
+.buttons .button-login {
+    font-size: 14px;
+    width: 84px;
+}
+
+.buttons .button-myalipay, .buttons .button-login {
+    border-radius: 2px;
+}
+.buttons .button-myalipay, .buttons .button-login, .video-area .button-login {
+    background: #00bbee;
+    color: #ffffff;
+}
+.buttons .button-myalipay, .buttons .button-login:hover{
+    background: #00a3d2;
+}
+.hasleftline:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 1px;
+    height: 16px;
+    background: #444;
+}
+.buttons .am-button-innerNav {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 15px;
+}
+.buttons .button-register {
+    color: #00bbee;
+    font-size: 12px;
+}
+.buttons .am-button-innerNav {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 15px;
+}
+/*header结束*/
+
+
+
+
+.warp{
+    position: relative;
+    overflow: hidden;
+}
+.warp_c{
+    position: absolute;
+    top: 0;
+    transition: top 0.5s;
+}
+.content{
+    width: 100%;
+    /*display: none;*/
+    /*height: 758px;*/
+}
+.warp .warp_c .active{
+    display: block;
+}
+.content1{
+    position: relative;
+}
+.content1 .zhe{
+    position: absolute;
+    background: rgba(6,6,6,.3);
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    padding: 350px 570px;
+}
+.content1 .zhe .zhuce{
+    width: 600px;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.zhe a{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 186px;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+}
+.zhe1{
+    background: #00bbee;
+    border: 1px solid #00bbee;
+    border-radius: 4px;
+}
+.zhe1:hover{
+    background: #00a3d2;
+}
+.zhe2{
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+
+}
+.content1 video{
+    margin-top: -50px;
+    width: 100%;
+}
+.dian{
+    position: fixed;
+    top: 300px;
+    right: 50px;
+    z-index: 99;
+}
+.dian li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid #acc1cf;
+}
+.dian .active{
+    background: #00a3d2;
+}
+.content2{
+    position: relative;
+}
+.songbao {
+    -webkit-transition: .2s 0s width linear;
+    position: absolute;
+    z-index: 10;
+    width: 800px;
+    /* height: 748px; */
+    bottom: -20px;
+    right: 0;
+}
+.words{
+    transition: 1s .5s opacity;
+    top: 30%;
+    left: 30%;
+    width: 315px;
+    position: absolute;
+    z-index: 11;
+    opacity: 0;
+}
+.content2:hover .words{
+    opacity: 1;
+}
+.am-cloud {
+    position: absolute;
+    z-index: 9;
+    width: 224px;
+    left: 15%;
+    top: 30%;
+}
+.am-kind {
+    width: 600px;
+    right: 20%;
+    top: 10%;
+    position: absolute;
+    z-index: 9;
+}
+.ftbar{
+    height: 60px;
+    overflow: hidden;
+    z-index: 101;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.3);
+}
+.ft-content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.products {
+    padding-top: 12px;
+}
+.products .zzfk{
+    margin-left: 40px;
+}
+.product {
+    float: left;
+}
+.product .icon {
+    font-family: "iconfont";
+    color: #fff;
+    font-size: 32px;
+    float: left;
+    font-style: normal;
+    display: block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+.product .tips {
+    padding-left: 12px;
+    margin-left: 42px;
+    position: relative;
+}
+.product .tips:before {
+    content: "";
+    display: block;
+    background-color: #b5b5b5;
+    position: absolute;
+    height: 90%;
+    width: 1px;
+    top: 1px;
+    left: -1px;
+}
+.product .tips p {
+    font-size: 16px;
+}
+
+.product .tips p, .product .tips span {
+    color: #fff;
+}
+.product .tips p, .product .tips span {
+    line-height: 1;
+}
+.product .tips span {
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.content3{
+    position: relative;
+}
+.tu31{
+    width: 420px;
+    top: -460px;
+    position: absolute;
+    opacity: 0;
+    transition: .8s 5s all;
+}
+.tu32{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+.content3 .tu33{
+    position: absolute;
+    bottom: -500px;
+    width: 1300px;
+    right: -100px;
+    opacity: 0;
+    /*transition:all 10s ;*/
+}
+.products .fkmfk {
+    margin-left: 150px;
+}
+.products .zzfk, .products .gh, .products .ewmfk, .products .wjsy, .products .gjys {
+    margin-left: 40px;
+}
+.w320 {
+    width: 320px;
+}
+.products .sbfk, .products .rmbfk {
+    float: right;
+    margin-right: 40px;
+}
+.content4{
+    position: relative;
+}
+.tu4{
+    top: 30%;
+    left: 25%;
+    width: 355px;
+    position: absolute;
+}
+.products .ppzp {
+    margin-left: 130px;
+}
+.content5{
+    position: relative;
+}
+.products .p1 {
+    margin-left: 150px;
+}
+.tu5{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.product {
+    float: left;
+}
+.w320 {
+    width: 320px;
+}
+.products .p2 {
+    float: right;
+    margin-right: 40px;
+}
+.content6{
+    position: relative;
+}
+.tu6{
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    width: 400px;
+}
+.w4{
+    width: 285px;
+    margin-left: 15px;
+}
+.content7{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+}
+.am-page{
+    width: 1200px;
+    margin: 0 auto;
+    height: 430px;
+}
+.main-content {
+    position: relative;
+}
+.main-content, .ft-content {
+
+}
+.am-five .white-area .layout {
+    width: 98%;
+    margin: 0 auto;
+}
+.happy-life {
+    padding-top: 110px;
+}
+.youcans {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.youcan {
+    float: left;
+    width: 25%;
+}
+.maxH650 .up {
+    width: 420px;
+    top: -380px;
+}
+.youcan .icon-pay {
+    color: #ffb400;
+}
+
+.youcan .icon {
+    color: #aaaaaa;
+    font-family: "iconfont";
+    text-align: center;
+    line-height: 36px;
+    font-size: 36px;
+    font-style: normal;
+    float: left;
+    display: block;
+    height: 36px;
+    width: 36px;
+    -webkit-font-smoothing: antialiased;
+}
+.youcan .title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    margin-left: 45px;
+}
+.youcan .tips span a {
+    color: #999;
+}
+.filed {
+    border-top: 1px #eeeeee solid;
+}
+.filed .block {
+    padding-top: 40px;
+    width: 25%;
+    float: left;
+}
+.tlink {
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.tlink a {
+    line-height: 1;
+    float: left;
+    margin-bottom: 5px;
+}
+.newslist li a, .follow-us .weibo, .follow-us, .tlink a {
+    color: #999;
+    font-size: 12px;
+}
+.notice span {
+    float: left;
+    color: #666;
+}
+.newslist {
+    margin-left: 32px;
+}
+.newslist li {
+    line-height: 20px;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+.alipay-app p {
+    font-size: 12px;
+    color: #999999;
+}
+.qrcode {
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 1px;
+    border: 1px #e9e9e9 solid;
+}
+.filed .block {
+    padding-top: 40px;
+    width: 25%;
+    float: left;
+}
+.alipay-ads {
+    position: relative;
+}
+.alipay-ads .ads-text {
+    position: relative;
+    z-index: 2;
+}
+.alipay-ads h4 {
+    color: #000;
+    font-weight: 800;
+    font-size: 14px;
+}
+.alipay-ads p {
+    width: 160px;
+    font-size: 12px;
+    padding: 5px 0 10px;
+    color: #999;
+}
+.alipay-ads .ads-text .link-detail {
+    text-decoration: none;
+    float: left;
+    display: block;
+    line-height: 1.5;
+    padding: 2px 15px;
+    background: #959595;
+    color: #fff;
+}
+.alipay-ads .ads-img {
+    border: 0;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 1;
+    display: block;
+    width: 150px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 174px;
+    background: #1e1b29;
+}
+.back-area{
+    width: 1200px;
+    margin: 0 auto;
+    height: 174px;
+}
+.footer {
+    padding-top: 30px;
+}
+.footer .links {
+    font-size: 12px;
+    color: #999999;
+    line-height: 1;
+    padding: 0 0 5px;
+}
+.footer .links a:first-child {
+    border-left: 0;
+    padding-left: 0 !important;
+}
+
+.footer .links a {
+    float: left;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-left: 1px #999999 solid;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+.footer a {
+    color: #999999;
+    font-size: 12px;
+}
+.footer .links span{
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+.footer .certs {
+    margin-top: 5px;
+    height: 38px;
+}
+.footer .certs a {
+    display: block;
+    float: left;
+    height: 38px;
+    background: url(../img/首页/4JdkuzOiwP.png) no-repeat 0 0;
+    margin-right: 20px;
+}
+.footer .certs .pic1 {
+    background-position: -4px -20px;
+    width: 32px;
+}
+.footer .certs .pic1:hover{
+    background-position: -4px -62px;
+}
+.footer .certs .pic2 {
+    background-position: -64px -15px;
+    width: 70px;
+}
+.footer .certs .pic2:hover {
+    background-position: -64px -60px;
+}
+.footer .certs .pic3 {
+    background-position: -140px -15px;
+    width: 65px;
+}
+.footer .certs .pic3:hover {
+    background-position: -140px -60px;
+}
+.footer .certs .pic4 {
+    background-position: -229px -15px;
+    width: 30px;
+}
+.footer .certs .pic4:hover {
+    background-position: -229px -61px;
+}
+.footer .certs .pic6 {
+    background-position: -393px -18px;
+    width: 30px;
+}
+.footer .certs .pic6:hover {
+    background-position: -393px -59px;
+}
+#ServerNum, #ServerNum p {
+    line-height: 1;
+    text-align: center;
+    color: #1e1b29;
+}
+.channel .downlist {
+display: none;
+    box-shadow: 0 0 2px rgba(128,128,128,0.5);
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 100%;
+    padding: 0 5px 0;
+    text-align: center;
+    background: #ffffff;
+}
+.channel .now{
+    display: none;
+}
+.channel .downlist .together {
+    padding-bottom: 15px;
+}
+.channel .downlist .tp a {
+    font-size: 14px;
+}
+.channel .downlist a {
+    line-height: 28px;
+    padding: 0 5px;
+    margin: 0 -5px;
+}
+.channel .channel-a, .channel .downlist a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.channel .downlist .close {
+    cursor: pointer;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    color: #999;
+    font-family: "alipayhome";
+    -webkit-font-smoothing: antialiased;
+}
+

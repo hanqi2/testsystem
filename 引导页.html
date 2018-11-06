@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付宝 知托付！</title>
+    <link rel="icon" href="img/favicon%20(1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="box">
+<header>
+    <nav>
+        <div class="logo fl">
+            <img src="img/TB17ghmIFXXXXXAXFXXXXXXXXXX.png" alt="" style="width: 70px;height: 25px;">
+        </div>
+        <div class="entry fr">
+            <span class="state">我已有支付宝账户</span>
+            <a href="#" id="aa">立即登陆</a>
+        </div>
+    </nav>
+</header>
+<div class="warp">
+        <div class="solgan"></div>
+        <div class="mid">
+            <a class="an" target="_blank" href="蚂蚁金服.html">
+                <span class="tittle"><i class="i1"></i>
+                我是合作伙伴
+                </span>
+            </a>
+            <div class="an a2">
+                <span class="tittle sj"><i class="i2"></i>
+                    我是商家用户
+                </span>
+                <div class="line">
+                    <a class="span1" target="_blank" href="商家平台.html">我是支付宝商家</a>
+                    <a target="_blank" href="口碑商家.html">我是口碑商家</a>
+                </div>
+            </div>
+            <a class="an" target="_blank" href="首页.html">
+                <span class="tittle">
+                    <i class="i3"></i>
+                    我是个人用户
+                </span>
+            </a>
+        </div>
+    </div>
+<ul class="lun">
+    <li style="display: block"><img src="img/TB1h9xxIFXXXXbKXXXXXXXXXXXX.jpg" alt=""></li>
+    <li><img src="img/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg" alt=""></li>
+    <li><img src="img/TB1sXGYIFXXXXc5XpXXXXXXXXXX.jpg" alt=""></li>
+</ul>
+</div>
+<div class="mask">
+    <div class="login">
+        <img src="img/商家中心/dd2224bd-318e-4345-bea5-b43b02a2a383.png" alt="">
+        <a href="首页.html"><input type="button" value="扫码登陆"></a>
+    </div>
+</div>
+<footer>
+    <div class="nav_links">
+        <ul>
+            <li><a href="#">蚂蚁金服集团</a></li>
+            <li>|</li>
+            <li><a href="#">蚂蚁金服集团</a></li>
+            <li>|</li>
+            <li><a href="#">支付宝</a></li>
+            <li>|</li>
+            <li><a href="#">余额宝</a></li>
+            <li>|</li>
+            <li><a href="#">招财宝</a></li>
+            <li>|</li>
+            <li><a href="#">蚂蚁商家中心</a></li>
+            <li>|</li>
+            <li><a href="#">芝麻信用</a></li>
+            <li>|</li>
+            <li><a href="#">蚂蚁微贷</a></li>
+            <li>|</li>
+            <li><a href="#">网商银行</a></li>
+            <li>|</li>
+            <li><a href="#">开放平台</a></li>
+            <li>|</li>
+            <li><a href="#">诚征英才</a></li>
+            <li>|</li>
+            <li><a href="#">联系我们</a></li>
+            <li>|</li>
+            <li><a href="#">International Business</a></li>
+        </ul>
+    </div>
+    <div class="ownership"><span>沪ICP备15027489号 </span></div>
+    <div class="nav_icons">
+        <em class="em1"></em>
+        <em class="em2"></em>
+        <em class="em3"></em>
+        <em class="em4"></em>
+        <em class="em5"></em>
+    </div>
+</footer>
+<script>
+    var number=0;
+    var aLi=document.querySelectorAll('.lun li');
+    timer();
+    var ding;
+    function timer(){
+        ding=setInterval(function(){
+            if(number<aLi.length-1){
+                number++;   //number   代表img的索引进行+1.txt
+            }else {
+                number=0;    //不满足这个条件  img的索引又等0
+            }
+            for(var j=0;j<aLi.length;j++){
+                aLi[j].style.display='none';
+            }
+            aLi[number].style.display='block';
+        },2000)
+    }
+    var aArr=document.getElementById('aa');
+    var mask=document.getElementsByClassName('mask')[0];
+    console.log(aArr);
+    aArr.addEventListener('click',function(event){
+        mask.style.display='block';
+        var event=event||window.event;
+        if (event&&event.stopPropagation){
+            event.stopPropagation();
+        }else {
+            event.cancelable=true;
+        }
+    });
+    document.addEventListener('click',function(event){
+        {
+            event=event||window.event;
+            var ele=event.target||event.srcElement;
+            if (ele.className!=='login'){
+                mask.style.display='none'
+            }
+        }
+    })
+</script>
+</body>
+</html>

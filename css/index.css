@@ -1,0 +1,277 @@
+body{
+    position: relative;
+    font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB, \5b8b\4f53;
+}
+.box{
+    height: 694px;
+    position: relative;
+}
+em{
+    background: url("../img/TB1.cMTIpXXXXbLXVXXXXXXXXXX.png") no-repeat;
+    display: inline-block;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    left: 0;
+    z-index: 99;
+}
+nav{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.logo{
+    width: 70px;
+    height: 25px;
+}
+.lun{
+    width: 100%;
+}
+.lun li{
+    width: 100%;
+    height: 694px;
+    display: none;
+}
+.lun li img{
+    width: 100%;
+    height: 694px;
+}
+.entry .state{
+    color: #bfbfbf;
+    font-size: 12px;
+}
+.entry a{
+    font-size: 12px;
+    color: #fff;
+    margin: 0 5px;
+}
+.entry a:hover{
+    color: #5dc0f0;
+}
+.warp{
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+.solgan{
+    width: 600px;
+    height: 200px;
+    display: inline-block;
+    background: url("../img/TB1POhqIFXXXXXbXFXXXXXXXXXX.png") no-repeat 0 0;
+    background-size: 600px;
+}
+.mid .an{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 170px;
+    color: #fff;
+    background: #5dc0f0;
+    line-height: 50px;
+    position: relative;
+}
+.mid a .tittle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 18px;
+    z-index: 2;
+}
+i{
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    display: block;
+    width: 24px;
+    height: 24px;
+
+}
+.i1{
+    background: url("../img/neqhNGwxBXBmhVY.png") no-repeat 0 0;
+    background-size: 24px;
+}
+.i2{
+    background: url("../img/TB12JNkIFXXXXXBXXXXXXXXXXXX.png") no-repeat 0 0;
+    background-size: 24px;
+}
+.i3{
+    background: url("../img/TB1uh30IpXXXXXKXVXXXXXXXXXX.png")no-repeat 0 0;
+    background-size: 24px;
+}
+.a2{
+    top: -20px;
+}
+.a2 .line{
+    display: none;
+    height: 100px;
+    width: 170px;
+    background: #5dc0f0;
+    border-radius: 8px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.a2 .sj{
+    padding-left: 20px;
+}
+.line a{
+    color: #fff;
+    display: block;
+    width: 170px;
+}
+.line .span1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.a2:hover .sj{
+    display: none;
+}
+.a2:hover .line{
+    display: block;
+}
+footer{
+    width: 100%;
+    height: 65px;
+    /*position: absolute;*/
+    /*bottom: -65px;*/
+    /*left: 0;*/
+    /*z-index: 99;*/
+    background: #fff;
+}
+.nav_link{
+    width: 99%;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer ul{
+    padding-left: 5px;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    margin: 2px;
+}
+footer ul li a{
+    color: #666;
+}
+.ownership{
+    height: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #666;
+}
+.nav_icons{
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.em1{
+    background-position: -2px -14px;
+    width: 16px;
+    height: 12px;
+    left: 40%;
+}
+.em2{
+    background-position:  -35px -10px;
+    width: 36px;
+    height: 16px;
+}
+.em3{
+    background-position: -77px -10px;
+    width: 27px;
+    height: 17px;
+}
+.em4{
+    background-position: -119px -13px;
+    width: 11px;
+    height: 12px;
+}
+.em5{
+    background-position: -203px -16px;
+    width: 12px;
+    height: 8px;
+}
+.em1:hover{
+    background-position: -1px -37px;
+}
+.em2:hover{
+    background-position: -34px -33px;
+}
+.em3:hover{
+    background-position: -76px -34px;
+}
+.em4:hover{
+    background-position: -118px -37px;
+}
+.em5:hover{
+    background-position: -203px -36px;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0, .6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 100;
+}
+.login {
+    width: 300px;
+    height: 325px;
+    border-radius: 2px;
+    /*background-color: #fff;*/
+    background: rgba(255,251,240, .6);
+    margin: 200px auto;
+}
+.login img{
+    margin-top: 25px;
+    width: 250px;
+    margin-left: 25px;
+}
+.login a input{
+    border-radius: 2px;
+    margin-left: 75px;
+    width: 150px;
+    height: 30px;
+    background: #FFD819;
+    color: white;
+}
+.login a{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
